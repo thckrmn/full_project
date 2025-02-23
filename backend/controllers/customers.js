@@ -18,7 +18,7 @@ const createCustomer = async (req, res) => {
       },
     });
     res.status(200).json({
-      status: "success",
+      status: "ok",
       message: `User with id ${cust.customer_id} created successfully`,
     });
   } catch (err) {
@@ -86,6 +86,7 @@ const deleteCustomer = async (req, res) => {
     }
     };
 
+    
     //update customer
     const updateCustomer = async (req, res) => {
       const { id } = req.params;

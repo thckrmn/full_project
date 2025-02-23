@@ -12,7 +12,7 @@ npm i nodemon
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.0"
 
-npx prisma
+npx prisma init
 
 npx prisma db pull ดึงมากจาก database ที่สร้าง
 npx prisma generate
@@ -24,3 +24,19 @@ npx prisma migrate dev --name update_.... schema
 npx nodemon npm start
 
 ctel + ฝ   คุมคอมเม้น
+
+
+npm init
+npm nodemon
+npm i
+npx prisma init
+npx prisma db pull
+npx prisma generate
+npx prisma migrate dev --name update_customer_schema
+npx nodemon npm start
+
+
+git add .
+git status
+git commit -m "second commit"
+git push

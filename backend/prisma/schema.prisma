@@ -56,7 +56,7 @@ model payments {
 }
 
 model products {
-  product_id  Int           @id
+  product_id  Int           @id @default(autoincrement())
   name        String        @db.VarChar(100)
   description String?       @db.Text
   price       Decimal       @db.Decimal(10, 2)
