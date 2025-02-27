@@ -16,7 +16,7 @@ npx prisma init
 
 npx prisma db pull ดึงมากจาก database ที่สร้าง
 npx prisma generate
-npx prisma migrate dev --name update_.... schema
+npx prisma migrate dev --name update_.._schema
                                add 
                                 delete
 
@@ -35,7 +35,7 @@ npx prisma generate
 npx prisma migrate dev --name update_customer_schema
 npx nodemon npm start
 
-
+git remote -v
 git add .
 git status
 git commit -m "second commit"
